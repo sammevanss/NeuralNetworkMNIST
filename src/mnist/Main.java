@@ -71,8 +71,8 @@ public class Main {
                 // Train the network on a single example (image and its label)
                 nn.train(images[i], labels[i]);
 
-                // Log progress every 1000 samples
-                if (i % 1000 == 0) {
+                // Log progress every 10000 samples
+                if (i % 10000 == 0) {
                     System.out.println("Trained " + i + " samples");
                 }
             }
