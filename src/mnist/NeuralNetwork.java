@@ -1,4 +1,4 @@
-package mnist;
+package src.mnist;
 
 import java.io.*;
 

@@ -28,18 +28,19 @@ Output Layer:     10 nodes (digits 0–9)
 ## Project Structure
 
 ```
-mnist/
-├── Main.java                 # Entry point: trains, evaluates, and saves the model  
-├── MNISTLoader.java          # Loads MNIST image and label data  
-└── NeuralNetwork.java        # Implementation of the neural network
+src/
+└── mnist/
+    ├── Main.java                 # Entry point: trains, evaluates, and saves the model  
+    ├── MNISTLoader.java          # Loads MNIST image and label data  
+    └── NeuralNetwork.java        # Core implementation of the neural network
 
-data/                         # MNIST binary data files (not included)
+data/                             # MNIST binary data files (not included)
 ├── train-images-idx3-ubyte 
 ├── train-labels-idx1-ubyte
 ├── t10k-images-idx3-ubyte
 └── t10k-labels-idx1-ubyte
 
-model.nn                      # Saved model file generated after training
+model.nn                          # Saved model file generated after training
 ```
 ---
 
@@ -58,7 +59,7 @@ model.nn                      # Saved model file generated after training
 
 ---
 
-## 🖨️ Sample Output
+## Sample Output
 
 ```
 
